@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM docker.io/library/node:alpine
 
 # Create app directory
 WORKDIR /usr/src/app
